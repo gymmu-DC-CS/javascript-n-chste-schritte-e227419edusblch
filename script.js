@@ -67,5 +67,6 @@ export function aufgabe03(args) {
 
         export function aufgabe07(args) {
           return args.toLowerCase().includes('und');
+          
         }
      
