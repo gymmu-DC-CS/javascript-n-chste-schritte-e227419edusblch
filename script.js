@@ -31,16 +31,10 @@ export function aufgabe03(args) {
   }
 
   export function aufgabe04(args) {
-    const input = args
-    let result = 0
+    const cleanText = args.replace(/[^\w\s]/gi, '');
+    const words = cleanText.split(/\s+/);
 
-    for (let i = 0; i < input.length; i++) {
-      const currentElement = input[i]
-      if (currentElement ===  " ") {
-        result++
-      }  
-    }
-     return result+1
+    return words.length;
     }
   
     export function aufgabe05(args) {
@@ -72,15 +66,6 @@ export function aufgabe03(args) {
         }
 
         export function aufgabe07(args) {
-          const input = args
-          let result = 0
-        
-          for (let i = 0; i < input.length; i++) {
-            const currentElement = input[i]
-            if (currentElement ==="e" || currentElement ==="E") {
-              result++
-            }  
-          }
-           return result
-          }
+          return args.toLowerCase().includes('und');
+        }
      
