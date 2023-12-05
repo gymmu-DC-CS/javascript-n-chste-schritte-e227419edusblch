@@ -69,4 +69,24 @@ export function aufgabe03(args) {
           return args.toLowerCase().includes('und');
           
         }
-     
+
+        export function aufgabe08(args) {
+          const input = args
+        }
+
+        export function aufgabe09(args) {
+          const input = args
+        }
+
+        export function aufgabe10(args) {
+          const input = args
+        }
+
+        export function aufgabe11(args) {
+        return input = args
+        }
+
+        export function aufgabe12(args) {
+          return input = args
+        }
+        
