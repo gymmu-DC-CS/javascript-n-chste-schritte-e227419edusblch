@@ -88,6 +88,22 @@ export function aufgabe12(args) {
   return (input = args)
 }
 
+export function aufgabe13(args) {
+  return (input = args)
+}
+
+export function aufgabe14(args) {
+  return (input = args)
+}
+
+export function aufgabe15(args) {
+  return (input = args)
+}
+
+export function aufgabe16(args) {
+  return (input = args)
+}
+
 export function zeichenZuZahl(args) {
   const input = args
   const result = []
