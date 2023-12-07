@@ -89,4 +89,26 @@ export function aufgabe03(args) {
         export function aufgabe12(args) {
           return input = args
         }
+
+        export function zeichenZuZahl (args) {
+          const input = args
+          const result = []
+
+          for (let i = 0; i < input.length; i++) {
+            const currentElement = input [i]
+            result.push(currentElement.charCodeAt())
+          }
+          return result.join(",")
+        }
+
+        export function zahlZuZeichen (args) {
+          const input = args
+          const result = []
+
+          for (let i = 0; i < input.length; i++) {
+            const currentElement = input [i]
+            result.push(currentElement.charCodeAt())
+          }
+          return result.join(",")
+        }
         
