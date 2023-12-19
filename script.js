@@ -70,8 +70,10 @@ export function aufgabe07(args) {
   return args.toLowerCase().includes("und")
 }
 
-export function aufgabe08(args) {
-  const input = args
+export function aufgabe08(inputString) {
+  const replacedString = inputString.replace(/e/g, "3").replace(/E/g, "E")
+
+  return replacedString
 }
 
 export function aufgabe09(args) {
@@ -95,7 +97,21 @@ export function aufgabe13(args) {
 }
 
 export function aufgabe14(args) {
-  return (input = args)
+  const input = args
+  let position = -1
+  let count = 0
+
+  for (let i = 0; i < input.length; i++) {
+    const currentElement = input[i]
+    if (currentElement === "e") {
+      count++
+    }
+    if (count === 3) {
+      position = i
+      break
+    }
+  }
+  return position
 }
 
 export function aufgabe15(args) {
